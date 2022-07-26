@@ -1,0 +1,47 @@
+#main-image {
+    height: 25em;
+}
+
+section {
+    display: grid;
+
+    grid-template-columns: max-content;
+    grid-template-rows: 2fr 2fr;
+}
+
+section > p {
+    padding-bottom: 1em;
+
+    font-size: 2.5em;
+    font-weight: bold;
+    color: white;
+}
+
+section > nav {
+    text-align: center;
+}
+
+button {
+    font-size: 1.15em;
+    border-radius: 2em;
+    border-width: 0;
+
+    height: 3.75em;
+    width: 8.5em;
+
+    color: white;
+    background-color: orangered;
+    box-shadow: 0.1px 2px 3px 0 black;
+}
+
+button:first-of-type {
+    margin-right: 10px;
+}
+
+button:hover {
+    background-color: rgb(252, 208, 192)
+}
+
+button:active {
+    color: black;
+}

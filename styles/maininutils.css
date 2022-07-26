@@ -1,0 +1,57 @@
+[id^="utils-image"] {
+    height: 20em;
+}
+
+section {
+    align-self: stretch;
+
+    height: 33em;
+    width: 22em;
+
+    padding: 3em 3em 0 3em;
+
+    background-color: white;
+    border-radius: 1em;
+}
+
+h2 {
+    font-size: 1.75em;
+
+    padding-bottom: 0.75em;
+}
+
+address {
+    font-style: normal;
+}
+
+section p {
+    padding-bottom: 0.5em;
+}
+
+section label {
+    display: block;
+}
+
+section input {
+    display: block;
+
+    width: 18em;
+    padding: 0.3em 0;
+    margin-bottom: 2em;
+}
+
+section button {
+    width: 18em;
+    height: 2.5em;
+
+    border-style: none;
+    color: white;
+    background-color: orangered;
+}
+
+section li {
+    display: block;
+
+    padding-left: 0;
+    padding-bottom: 0.5em;
+}

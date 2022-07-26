@@ -3,13 +3,19 @@
     <head>
         <meta charset="UTF-8" />
         <title>마카오 뱅크</title>
+        <link rel="stylesheet" href="/styles/global.css" />
+        <link rel="stylesheet" href="/styles/layout.css" />
+        <link rel="stylesheet" href="/styles/header.css" />
+        <link rel="stylesheet" href="/styles/maininutils.css" />
     </head>
     <body>
         <header>
             <nav>
-                <ul>
+                <ul id="menu-bar">
                     <li>
-                        <a href="/index.html"><img src="/data/images/logo.png" alt="마카오뱅크 아이콘" /></a>
+                        <a href="/index.html">
+                            <img id="logo" src="/data/images/logo.png" alt="마카오뱅크 아이콘" />
+                        </a>
                     </li>
                     <li><a href="/index.html">홈</a></li>
                     <li><a href="/amount.html">잔액조회</a></li>
@@ -18,9 +24,9 @@
                 </ul>
             </nav>
         </header>
-        <body>
-            <img src="/data/images/man.png" alt="마카오뱅크 기능 화면 이미지: 남성" />
-            <main>
+        <main>
+            <img id="utils-image1" src="/data/images/man.png" alt="마카오뱅크 기능 화면 이미지: 남성" />
+            <section>
                 <h2>잔액조회</h2>
                 <address>
                     <ul>
@@ -29,8 +35,8 @@
                         <li>잔액: 45,600,000,000원</li>
                     </ul>
                 </address>
-            </main>
-            <img src="/data/images/woman.png" alt="마카오뱅크 기능 화면 이미지: 여성" />
-        </body>
+            </section>
+            <img id="utils-image2" src="/data/images/woman.png" alt="마카오뱅크 기능 화면 이미지: 여성" />
+        </main>
     </body>
 </html>
