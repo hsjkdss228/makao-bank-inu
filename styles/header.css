@@ -1,9 +1,7 @@
 header {
     background-color: orangered;
-}
 
-li {
-    list-style: none;
+    z-index: 1;
 }
 
 #logo {
@@ -11,4 +9,15 @@ li {
 
     padding-top: 10px;
     padding-bottom: 10px;
+    padding-left: 100px;
+}
+
+li {
+    display: inline-block;
+
+    padding-left: 50px;
+    
+    vertical-align: middle;
+    
+    list-style: none;
 }
