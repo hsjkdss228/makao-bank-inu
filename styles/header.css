@@ -1,0 +1,14 @@
+header {
+    background-color: orangered;
+}
+
+li {
+    list-style: none;
+}
+
+#logo {
+    height: 60px;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
