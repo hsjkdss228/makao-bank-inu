@@ -21,10 +21,6 @@ section > nav {
     text-align: center;
 }
 
-nav:first-child {
-    
-}
-
 button {
     font-size: 1.15em;
     border-radius: 2em;
